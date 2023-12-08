@@ -26,25 +26,12 @@ const FAQ = () => {
               aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample"
             >
-              <div className="accordion-body">
-
               {/* ma presentation */}
+              <div className="accordion-body">
+                <p className='text-faq'>
+                  je suis <b>Jordy AKRA MESCHEBA</b>, actuellement étudiant en Master 2 de Développement Web, Data Science & Intelligence Artificielle. Ma passion débordante pour la technologie et l'innovation s'est concrétisée au cours de mes deux années d'expérience dans le domaine. Mon dernier stage s'est déroulé au sein d'un atelier de tailleurs sur-mesure à Paris, où j'ai collaboré avec des experts en développement web, SEO et SEA. Ensemble, nous avons travaillé sur la migration d'un site en préproduction vers le site existant de l'entreprise, acquérant ainsi des compétences significatives dans ces domaines. Mon parcours inclut également une variété de projets, allant de réalisations personnelles à des missions en freelance.
 
-              Bonjour  je m'appelle <b>Jordy AKRA MESCHEBA</b>, et je suis ravi de vous accueillir sur mon <code>portfolio</code> ! Actuellement, je suis étudiant en Master 2 de Développement Web, Big-Data & Intelligence Artificielle. Avec une passion débordante pour la technologie et l'innovation, je me suis engagé dans ce domaine fascinant pour explorer les multiples facettes du développement web et plonger dans les vastes domaines du Big Data et de l'IA.
-
-Mon parcours académique et professionnel m'a offert une riche expérience dans le développement web, où j'ai pu appliquer mes connaissances théoriques pour créer des solutions concrètes et fonctionnelles. Mon engagement dans ce domaine remonte à deux ans, au cours desquels j'ai travaillé sur divers projets passionnants et appris à maîtriser les dernières technologies et tendances.
-
-Mon approche du développement web va au-delà du simple codage. Je suis constamment à l'affût des dernières avancées et je m'efforce d'intégrer les meilleures pratiques pour créer des expériences utilisateur fluides et efficaces. Ma curiosité naturelle me pousse à explorer de nouvelles idées et à résoudre des problèmes complexes, contribuant ainsi à mon développement professionnel continu.
-
-Dans le domaine du Big Data et de l'IA, je suis particulièrement intéressé par la manière dont ces technologies peuvent être utilisées pour résoudre des défis du monde réel. Mon parcours académique me permet d'acquérir une compréhension approfondie des concepts sous-jacents et de développer des compétences pratiques pour appliquer ces connaissances dans des projets concrets.
-
-Que ce soit en codant une application web, en explorant des ensembles de données massifs ou en créant des solutions d'IA innovantes, je suis passionné par la possibilité de contribuer à façonner l'avenir numérique. Explorez mon portfolio pour découvrir certains de mes projets passés et actuels, ainsi que pour en savoir plus sur mes compétences et mon approche du développement web, du Big Data et de l'IA.
-
-Je suis toujours ouvert aux nouvelles opportunités de collaboration et d'apprentissage, alors n'hésitez pas à me contacter si vous souhaitez discuter de projets, d'idées ou simplement échanger des expériences.
-
-Merci de visiter mon portfolio, et j'ai hâte de partager davantage avec vous sur mon parcours et mes réalisations !
-
-
+                </p>
               </div>
             </div>
           </div>
@@ -59,7 +46,7 @@ Merci de visiter mon portfolio, et j'ai hâte de partager davantage avec vous su
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
               >
-              <h3> Pourquoi me recruter  ?</h3>
+                <h3> Pourquoi me recruter ?</h3>
               </button>
             </h2>
             <div
@@ -69,9 +56,21 @@ Merci de visiter mon portfolio, et j'ai hâte de partager davantage avec vous su
               data-bs-parent="#accordionFlushExample"
             >
               <div className="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> className. This is
-                the first item's accordion body.
+                <p className='text-faq'>
+                  Si vous me donnez l'opportunité de rejoindre votre équipe, je mettrai à votre disposition mes compétences regroupées sous l'acronyme DRP, englobant le <b>Développement</b> de sites web et d'applications mobiles.
+                </p>
+
+                <p className='text-faq'>
+                  Mon approche se distingue par une écriture de code claire et élaborée, agrémentée de commentaires pour faciliter la compréhension des autres développeurs. Je m'attache également à organiser l'arborescence par composant, favorisant ainsi une meilleure gestion du projet. En ce qui concerne le <b>Référencement</b>, je m'appuie sur des pratiques exemplaires telles que l'utilisation de métadonnées, l'optimisation des titres H1, H2, H3, et l'exploitation d'outils puissants tels que le SEO in One de Google pour éviter tout risque de sous-référencement ou de sur-référencement.
+
+                </p>
+
+                <p className='text-faq'>
+                  En matière de <b>Publicité</b>, mon expertise s'étend au SEA, où je développe des stratégies efficaces telles que l'utilisation d'e-mails ciblés pour les clients existants, l'analyse approfondie des avis clients pour comprendre leurs retours, l'interaction proactive avec les clients en répondant à leurs avis, ainsi que la proposition de promotions attrayantes. Ces compétences ont été affinées grâce à mes expériences en marketing chez Metro et Ikea, notamment dans le domaine du Service Relation Clients .
+
+                </p>
+                <p className='text-faq'> Mon engagement est de contribuer activement au succès de votre entreprise en mettant en œuvre ces techniques avancées et en tirant parti de mes antécédents en marketing et en développement web.
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +84,7 @@ Merci de visiter mon portfolio, et j'ai hâte de partager davantage avec vous su
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-              <h3>  Qu'est ce que je pourrais apporter à l'entreprise?</h3>
+                <h3>Ce que j'attend de vous</h3>
               </button>
             </h2>
             <div
@@ -95,13 +94,65 @@ Merci de visiter mon portfolio, et j'ai hâte de partager davantage avec vous su
               data-bs-parent="#accordionFlushExample"
             >
               <div className="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> className. This is
-                the second item's accordion body. Let's imagine this being
-                filled with some actual content.
+                <p className='text-faq'>
+                  Quel est ton rythme de formation
+                  demonstrate the <code>.accordion-flush</code> className. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </p>
+
               </div>
             </div>
           </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="flush-headingTwo">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTree"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                <h3>Les avantages de me recruter</h3>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTree"
+              className="accordion-collapse collapse"
+              aria-labelledby="flush-headingTree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div className="accordion-body">
+                <p className='text-faq'>
+                  Une formation adaptée aux temps forts de l'entreprise, me permettant d'acquérir de nouvelles compétences opérationnelles afin de mener à bien les missions que vous voudrez bien me confier. Cette formation en alternance se déroule en ligne selon les modalités suivantes :
+                </p>
+                <p className='text-faq'>
+                  - Des rentrées toute l'année (pas de date fixe de rentrée)
+                </p>
+
+                <p className='text-faq'>
+                  - Un rythme d'alternance optimisé : 4 jours en entreprise / 1 jour en formation, adapté aux temps forts d'activité de votre entreprise
+                </p>
+                <p className='text-faq'>
+                  - Un programme de formation à la carte : vous déterminez l'ordre des modules à suivre en fonction des missions que vous serez amené à me confier.
+                </p>
+                <p className='text-faq'> De plus, pour toute embauche en alternance vous bénéficiez d'une prime de 6000€ grâce au plan "1 jeune, 1 solution", et si vous êtes éligible, votre OPCO se chargera de payer les frais de ma formation ce qui diminue considérablement le coût lié à mon embauche.
+                </p>
+                <p className='text-faq'>
+                  Vous trouverez ci-joint mon CV ainsi que la brochure de présentation de l'ISCOD.
+
+                  Dans l'attente d'un entretien, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+                </p>
+
+
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </>
