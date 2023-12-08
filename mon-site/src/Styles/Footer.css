@@ -1,0 +1,28 @@
+:root{
+    --font-heading-family--:Archivo, serif,
+}
+.Footer{
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #002155;
+    margin: 0 auto;;
+}
+Footer>.row>i{
+    width: 100%;
+    max-width: 80rem;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+.col-md-4>p{
+    color: rgb(255, 255, 255);
+}
+@media screen and ( max-width: 768px) {
+
+    .col-md-4>p{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        margin: 30px 100px 1px 100px
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "image":"https://github.com/akramescheba/Data-processing-application/assets/94695950/057f661c-86dc-4afe-824e-8ae0de9fff32",
+        "title":"Site de vente de meuble",
+        "description":"The python data processing application is designed to facilitate the analysis of data relating to people vaccinated against Covid-19. This application is based on the pandas, Matplotlib etc...",
+        "conexte":"Data-processing-application",
+        "url":"https://page-fictive.web.app"
+    },
+    {
+        "id":"2",
+        "image":"https://user-images.githubusercontent.com/94695950/193481503-c385df61-afbf-472d-9a8d-6da1240fcbd9.png",
+        "title":"Data-processing-application",
+        "description":"The python data processing application is designed to facilitate the analysis of data relating to people vaccinated against Covid-19. This application is based on the pandas, Matplotlib etc...",
+        "conexte":"Data-processing-application",
+        "url":"https://github.com/akramescheba/Data-processing-application"
+    },
+    {
+        "id":"3",
+        "image":"https://github.com/akramescheba/Data-processing-application/assets/94695950/fe2a8be7-66e7-4d8b-aa47-df472052e032",
+        "title":"Immobilier-App ",
+        "description":"Application immobilière mobile optimisée pour afficher une liste d'immeubles par localisation. Créée pour saisir une opportunité dans l'immobilier, elle offre une interface conviviale, facilitant la recherche et la visualisation des propriétés par critères de localisation. Simplifiez votre expérience immobilière avec cette application intuitive",
+        "conexte":"Ce projet a été initialement entrepris en réponse à une opportunité d'entretien dans le secteur de l'immobilier. Cependant, après analyse, il s'est avéré que cette opportunité n'était pas alignée sur le cadre de mes études. Par conséquent, j'ai choisi de ne pas poursuivre cette opportunité.",
+        "url":"https://github.com/akramescheba/ImmobilierApp"
+    },
+    {
+        "id":"4",
+        "image":"https://image.elite-auto.fr//visuel/TOYOTA/toyota_22camryhevpremsd8fb_angularfront.png",
+        "title":"Car-Location",
+        "description":"Application React Native de gestion de véhicules avec affichage détaillé, recherche intuitive, suggestions, et fonction de favoris. Projet de classe axé sur l'utilisation avancée des Hooks pour une expérience de développement moderne.",
+        "conexte":"CARLOCATION",
+        "url":"https://github.com/akramescheba/CARLOCATION"
+    },
+    {
+        "id":"5",
+        "image":"https://github.com/akramescheba/Digit-Recognition/assets/94695950/de8033a8-5475-4f8c-b20c-8a1b5384d883",
+        "title":"Digit-Recognition",
+        "description":"Cette application a pour but de présenter une liste complète d'annonces immobilier, affichant des informations essentielles telles que l'adresse, le numéro de l'agence.",
+        "conexte":"Digit-Recognition",
+        "url":"https://github.com/akramescheba/Digit-Recognition"
+    },
+    {
+        "id":"6",
+        "image":"https://github.com/akramescheba/Data-processing-application/assets/94695950/82f8a5dc-ee4b-4827-8fec-a97337db59ff",
+        "title":"MarketPlace",
+        "description":"marketplace",
+        "conexte":"null",
+        "url":"https://github.com/akramescheba/marketspace"
+    }
+]

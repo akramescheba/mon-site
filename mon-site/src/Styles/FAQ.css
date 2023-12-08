@@ -1,0 +1,21 @@
+:root{
+    --Langages-image--:url('https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2023/10/data-bigdata-ia-stack.png');
+    --font-heading-family--:Archivo, serif,
+}
+.FAQ{
+    width: 70%;
+    margin: 5% auto;
+    padding:2rem;
+}
+h2.accordion-header{
+    text-align: center;
+    font-size:18px;
+    text-transform: uppercase;
+}
+button>h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: oblique;
+    color:#4a597b;
+    letter-spacing: .1em;
+}

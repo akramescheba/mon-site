@@ -1,0 +1,43 @@
+.App{
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+}
+.App-header {
+  background-color: #002155;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: #F1F0EA; */
+
+}
+
+.menu>a {
+  color:#F1F0EA;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px;
+}
+a.home, .projets,.faq, .contact{
+  color: #F1F0EA;
+  text-decoration: none;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
