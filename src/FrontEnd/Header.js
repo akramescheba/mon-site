@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <header className="App-header">
       <div className="Bienvenu">
-        <p>Bienvenu sur mon site</p>
+        <p>CMD</p>
       </div>
       <div className="menu">
         <a   className="home" href='.'>
-          <Link className="home" to="/">Accueil</Link>
+          <Link className="home" to="/">accueil</Link>
         </a>
         <a   className="projets" href='.'>
           <Link className="projets" to="projets">Projets</Link>
