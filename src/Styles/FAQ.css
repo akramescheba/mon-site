@@ -4,9 +4,9 @@
 .FAQ{
     display: block;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
-    padding: 0 0 100px 0;
+    padding: 250px ;
  
 }
 
@@ -15,6 +15,7 @@ button>h3{
     text-transform: uppercase;
     font-weight: bold;
     font-style: oblique;
+    font-size: 16px;
     color:#4a597b;
     letter-spacing: .1em;
 }
@@ -22,7 +23,25 @@ div>p.text-faq{
     font-family:var(---font-family---);
     letter-spacing: 0.01em;
  
-    font-size: 20px;
+    font-size: 18px;
 
   color: rgb(0, 0, 0);
+}
+@media screen and (max-width:768px){
+    .FAQ{
+        display: block;
+        justify-content: center;
+        width:100%;
+        margin: 0 auto;
+        padding: 150px 20px 150px 20px;
+    }
+    div>p.text-faq{
+        font-family:var(---font-family---);
+        letter-spacing: 0.01em;
+     
+        font-size: 16px;
+    
+      color: rgb(0, 0, 0);
+    }
+    
 }

@@ -115,7 +115,7 @@ const FAQ = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                <h3>Les avantages de me recruter</h3>
+                <h3>Vos avantages </h3>
               </button>
             </h2>
             <div
@@ -146,9 +146,6 @@ const FAQ = () => {
                   Dans l'attente d'un entretien, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
 
                 </p>
-
-
-
               </div>
             </div>
           </div>

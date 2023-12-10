@@ -1,28 +1,30 @@
 import { Link } from 'react-router-dom'
-import '../Styles/App.css'
+import '../Styles/Header.css'
 
 const Header = () => {
   return (
-    <header className="App-header">
+    <header className="conteneur-header">
       <div className="Bienvenu">
-        <p>CMD</p>
-      </div>
-      <div className="menu">
-        <a   className="home" href='.'>
-          <Link className="home" to="/">accueil</Link>
+      <a   className="logo-link" href='.'>
+          <Link className="logo-link" to="/">CMD</Link>
         </a>
+       
+      </div>
+      
+      <div className="menu">
+     
         <a   className="projets" href='.'>
           <Link className="projets" to="projets">Projets</Link>
         </a>
         <a  className="faq" href='.' >
-          <Link className="faq" to="faq">Questions fréquentes</Link>
+          <Link className="faq" to="faq">Faq </Link>
         </a>
         <a  className="contact"  href='.'>
-          <Link className="contact" to="me-contacter">Me contacter</Link>
+          <Link className="contact" to="me-contacter">contacts</Link>
         </a>
-        <a   className="blog" href="http://localhost:3001/projet">
+        {/* <a   className="blog" href="http://localhost:3001/projet">
           Server
-        </a>
+        </a> */}
       </div>
     </header>
   )

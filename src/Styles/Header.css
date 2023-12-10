@@ -1,0 +1,110 @@
+:root {
+  ---font-family---: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+
+.conteneur-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #002155;
+  width: 100%;
+  min-height: 15vh;
+  font-size: calc(10px + 2vmin);
+  font-family: var(---font-family---);
+  color: #F1F0EA;
+
+}
+
+.menu>a {
+  color: #eeca00;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:18px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.projets,
+.faq,
+.contact {
+  color: #F1F0EA;
+  text-decoration: none;
+
+}
+.Bienvenu{
+  background-color:rgb(0, 62, 110) ;
+  margin:0 0 0 -50px ;
+}
+.logo-link {
+  /* -ms-transform: scale(.4); */
+  text-decoration: none;
+  color: #F1F0EA;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  justify-content: right;
+  margin: 0 auto;
+
+
+}
+
+
+
+
+
+
+@keyframes App-logo-link-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .conteneur-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+    justify-content:center;
+    padding: 0 auto;
+    background-color: #002155;
+height: 5vh;
+    font-size: calc(10px + 2vmin);
+    font-family: var(---font-family---);
+    color: #F1F0EA;
+  
+  }
+
+  .menu>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:12px;
+  }
+  .logo-link {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1px;
+  
+  
+  }
+
+  .projets,
+  .faq,
+  .contact {
+    color: #F1F0EA;
+    text-decoration: none;
+
+  }
+}

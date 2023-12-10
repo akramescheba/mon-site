@@ -1,65 +1,91 @@
 :root {
     --backgroung-color--: #F1F0EA;
-    ---color-h1--:#e90101;
+    ---color-h1--: #e90101;
     ---color-h3-p-: #002155;
+    ---font-family---: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+
+
 }
-.Projets{
-    color:black;
+
+.Projets {
+    color: black;
     background-color: var(--backgroung-color--);
-    padding:50px  150px;
+    font-family: var(---font-family---);
+    padding: 20px 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr );  
-    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
-.card-projet{
+
+.card-projet {
     width: 100%;
-    height: 56vh;
-    padding:5px ;
+    height: 60vh;
+    padding: 5px;
     border: 1 solid;
     border-radius: 5px;
     background-color: #ffffff;
 }
+
 img {
-    min-width: 100%;
-    height: 35vh;
+    min-width: 80%;
+    height: 30vh;
 
 }
-.card-text{
-    color:black;
+
+.card-text {
+    color: black;
 }
-h5>a{
+
+h5>a {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-overflow: ellipsis;
 
 }
-div>p{
-    font-size: 12px;
-}
-@media (max-width: 1090px){
-    .Projets{
-        color:black;
+
+@media (max-width: 1068px) {
+    .Projets {
+        color: black;
         background-color: var(--backgroung-color--);
-        padding:50px  50px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr );  
-        gap:10px;
-    } 
-    .card-projet{
-        width: 100%;
-        height: 46vh;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .card-projet {
+        height: 55vh;
+        padding: 10px;
         border: 1 solid;
         border-radius: 5px;
         background-color: #ffffff;
     }
+
     img {
-        min-width: 100%;
-        height: 20vh;
-    
+        height: 30vh;
     }
-    div>p{
-        font-size: 16px;
+
+    div>p {}
+
+    .card-title {
+        font-size: 100%;
     }
+}
+
+@media (max-width: 768px) {
+    .Projets {
+        color: black;
+        background-color: var(--backgroung-color--);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-projet {
+        border: 1 solid;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }
+
 }

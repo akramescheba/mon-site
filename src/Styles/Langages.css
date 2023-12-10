@@ -1,12 +1,74 @@
-:root{
-    --Langages-image--:url('https://t2e2i7f7.rocketcdn.me/wp-content/uploads/2023/10/data-bigdata-ia-stack.png');
+.langages {
+  color: aliceblue;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
 }
-.langages{
-  background-image: var(--Langages-image--);
-  background-repeat: no-repeat;
-    height: 50vh;
-    width: 40%;
+.kubernetes,
+.postgresql,
+.javascript,
+.bootstrap,
+.wordpress,
+.mongodb,
+.vscode,
+.github,
+.docker,
+.python,
+.django,
+.ubuntu,
+.mysql,
+.linux,
+.react,
+.html,
+.git,
+.css {
+  height: 14vmin;
+  max-width: 50%;
+  pointer-events: none;
+  padding: 10px 10px 10px 10px;
+  border: 10px solid #F1F0EA;
+  ;
+  border-radius: 100px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .langages {
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    width: 90%;
+ 
+  }
+
+  .kubernetes,
+  .postgresql,
+  .javascript,
+  .bootstrap,
+  .wordpress,
+  .mongodb,
+  .vscode,
+  .github,
+  .docker,
+  .python,
+  .django,
+  .ubuntu,
+  .mysql,
+  .linux,
+  .react,
+  .html,
+  .git,
+  .css {
+    height: 8vmin;
+align-items: center;
+    padding: 1px 1px 1px 1px;
+    border:1px solid white;
+    border-radius: 50px;
+    background-color: #F1F0EA;
+
+
+  }
+
 }

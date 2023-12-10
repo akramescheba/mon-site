@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub,  faLinkedinIn  } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import '../Styles/Footer.css';
 
@@ -31,37 +31,37 @@ const Footer = () => {
               </a>
             </p>
           </div>
-
-         
-
+          
           <div className="col-md-4">
             <hr />
-            <h5 className='titre-formulaire'>Vos commentaires sont les binvenus</h5>
+            <h5 className='titre-formulaire'>Vos commentaires sont les bienvenus</h5>
             <div className='formulaire'>
-              <input className='input' placeholder='Entrer votre mail*' required />
-              <br/>
-              <input className='textarea
-textarea' placeholder='Votre message*' required/>
+              <input className=' saisie-nom' type='text' placeholder='saisir votre nom' required />
+              <input className='saisie-email' type='email' placeholder='saisir votre mail*' required />
+              <input className='saisie-numéro' type='number' placeholder='saisir numéro*' required />
+              <input className='saisie-message' type='text' placeholder='saisir message*' required />
             </div>
+        
             <button className='button-formulaire'>
-             Envoyer
-              <FontAwesomeIcon icon={faPaperPlane}  size='2x'/>
+              Envoyer
+              <FontAwesomeIcon icon={faPaperPlane} size='2x' />
             </button>
+    
           </div>
           <hr />
-   
-    <div className='icon-reseaux'>
 
-      <a href='https://github.com/akramescheba'  target="_blank" rel="noopener noreferrer" className="social-icon" >
-      <FontAwesomeIcon  icon={faGithub} color='#F1F0EA' size='3x'/>
-      </a>
-      <a href='https://www.linkedin.com/in/jordy-akra-mescheba/'  target="_blank" rel="noopener noreferrer" className="social-icon" >
-      <FontAwesomeIcon icon={ faLinkedinIn} color='#F1F0EA' size='3x'/>
-      </a>
-    </div>
+          <div className='icon-reseaux'>
+
+            <a href='https://github.com/akramescheba' target="_blank" rel="noopener noreferrer" className="social-icon" >
+              <FontAwesomeIcon icon={faGithub} color='#F1F0EA' size='3x' />
+            </a>
+            <a href='https://www.linkedin.com/in/jordy-akra-mescheba/' target="_blank" rel="noopener noreferrer" className="social-icon" >
+              <FontAwesomeIcon icon={faLinkedinIn} color='#F1F0EA' size='3x' />
+            </a>
+          </div>
 
         </div>
- 
+
       </div>
 
     </footer>

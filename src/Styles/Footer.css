@@ -1,48 +1,74 @@
-:root{
-    --font-heading-family--:Archivo, serif;
-    ---font-family---:source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+:root {
+    --font-heading-family--: Archivo, serif;
+    ---font-family---: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
 
 }
 
-.Footer{
+.Footer {
     font-family: var(---font-family---);
-    height: 75vh;
+    height: 80vh;
     align-items: center;
     display: flex;
     justify-content: center;
     background-color: #002155;
     margin: 0 auto;
 }
-div.row{
+
+div.row {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 0 auto;
     box-sizing: border-box;
     color: aliceblue;
-    
+
 }
-.titre-formulaire{
+
+.formulaire {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(17, 137, 230);
+    border-radius: 16px;
+    background-color: rgba(234, 234, 234, 0.985);
+}
+
+.titre-formulaire {
     text-align: center;
 }
-.input{
+
+.saisie-nom {
     background-color: #F0F0F2;
     text-align: center;
-    border: 2px solid rgb(255, 255, 255); 
-    max-height: 220px;font-style: italic;
-    margin: 1px ;
-    border-radius:10px 10px  0 0  ;
+    border: 2px solid rgb(255, 255, 255);
+    font-style: italic;
+    margin: 2px;
+    border-radius: 10px 10px 0 0;
 }
-.textarea{
+
+.saisie-email,
+.saisie-numéro {
     background-color: #F0F0F2;
     text-align: center;
-    border: 2px solid rgb(255, 255, 255); 
-    border-radius: 0 0  10px 10px  ;
-    min-height: 220px;
-    max-height: 220px;font-style: italic;
-    margin: 1px 
+    border: 2px solid rgb(255, 255, 255);
+    font-style: italic;
+    margin: 2px;
+
 }
-button.button-formulaire{
+
+.saisie-message {
+    background-color: #F0F0F2;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    min-height: 150px;
+    max-height: 150px;
+    font-style: italic;
+    margin: 2px
+}
+
+button.button-formulaire {
     color: #000000;
     border: 1px solid white;
     border-radius: 50px;
@@ -53,38 +79,38 @@ button.button-formulaire{
     justify-content: center;
 }
 
-
-p.text-footer{
+p.text-footer {
 
     font-size: 18px;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.formulaire{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1Opx;
-}
-p>a{  text-decoration: none;}
 
-div.icon-reseaux{
+p>a {
+    text-decoration: none;
+    color: rgb(17, 137, 230);
+}
+
+div.icon-reseaux {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
-   
+    margin: 0 auto;
+
 }
 
-@media screen and ( max-width: 768px) {
-
-    .col-md-4>p{
+@media screen and (max-width: 768px) {
+        
+.Footer {
+    width: 100%;
+    height: auto;
+}
+ .col-md-4>p {
         font-size: 15px;
         color: rgb(255, 255, 255);
         margin: 30px 100px 1px 100px
     }
+
 }
