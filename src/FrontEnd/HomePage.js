@@ -10,9 +10,9 @@ const HomePage = () => {
           <h1>DÉVELOPPEUR FULL STACK</h1>
           <h2>Jordy AKRA MESCHEBA</h2>
         </div>
-        <button className='button-voir-tous-mes-projets'>
+        {/* <button className='button-voir-tous-mes-projets'>
           Voir tous mes projets
-          </button>
+          </button> */}
         
       </div>
     </>

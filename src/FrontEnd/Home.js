@@ -2,7 +2,7 @@ import React from 'react'
 import HomePage from './HomePage'
 import Parcours from './Parcours'
 import Langages from './Langages'
-import FAQ from './FAQ'
+// import FAQ from './FAQ'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <HomePage />
       <Parcours />
       <Langages/>
-      <FAQ/>
+      {/* <FAQ/> */}
     </>
   )
 }

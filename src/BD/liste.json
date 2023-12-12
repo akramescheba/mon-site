@@ -3,7 +3,7 @@
         "id":"1",
         "image":"https://github.com/akramescheba/Data-processing-application/assets/94695950/057f661c-86dc-4afe-824e-8ae0de9fff32",
         "title":"Site de vente de meuble",
-        "description":"The python data processing application is designed to facilitate the analysis of data relating to people vaccinated against Covid-19. This application is based on the pandas, Matplotlib etc...",
+        "description":"Projet de test pour une entreprise de menuiserie. En cliquant sur le bouton CONFIGURER, une page s'affiche, permettant aux utilisateurs de sélectionner les dimensions et le type de matériau en bois pour la construction de leur étagère, et l'ajouter directement au panier. Ce test a été réalisé avec React.js et utilise sessionStorage.",
         "conexte":"Data-processing-application",
         "url":"https://page-fictive.web.app"
     },

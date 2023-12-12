@@ -10,8 +10,7 @@ const Parcours = () => {
         exemplaire, je me distingue par mon esprit d'équipe collaboratif, de
         ma créativité dans la résolution de problèmes et mes prises
         d'initiatives. Actuellement, je recherche activement une opportunité
-        d'alternance de 12 mois afin de poursuivre
-        mon M2 en Développement Web, Big Data et IA. Je suis disponible
+        d'alternance de 12 mois afin de poursuivre mon M2 d'Expert en Ingénierie Logicielle. Je suis disponible
         immédiatement.
       </p>
 
@@ -60,9 +59,13 @@ const Parcours = () => {
         <li>🎯Affichage des résultats sur une IHM.</li>
       </ul>
       <h1>Formations</h1>
-      <h3> M2 Expert, en Ingénierie Logicielle</h3>
+      <h3> M2 Expert en Ingénierie Logicielle</h3>
       <br />
-      <i><a href='https://ecole-ipssi.com/formations-informatique/master-bigdata-data/'>ISCOD -Paris</a> - décembre 2023 à novembre 2024</i>
+      <i>
+        <a target='_blank' rel="noreferrer"  href='https://www.iscod.fr/formation-mastere-expert-en-ingenierie-logicielle?utm_source=google-branding&utm_medium=cpc&utm_campaign=LISCOD&utm_term=iscode&gad_source=1&gclid=Cj0KCQiA4NWrBhD-ARIsAFCKwWvYDlDAKofNmZFF7LwjPrKE8Xu3SazXbDI0vYlKJ9BESXk-sU_MzPoaAkz0EALw_wcB#?utm_source=google-branding&utm_medium=cpc&utm_campaign=LISCOD&utm_term=iscode&gad_source=1&gclid=Cj0KCQiA4NWrBhD-ARIsAFCKwWvYDlDAKofNmZFF7LwjPrKE8Xu3SazXbDI0vYlKJ9BESXk-sU_MzPoaAkz0EALw_wcB'>
+          ISCOD -Paris
+          </a> 
+          - décembre 2023 à novembre 2024</i>
       <br />
       <p className='text-parcours'>
         Formation permettant de développer à la fois des compétences avancées en
@@ -73,7 +76,7 @@ const Parcours = () => {
       <br />
       <h3> M1 Développement Web Big-Data & IA</h3>
       <br />
-      <i><a href='https://ecole-ipssi.com/formations-informatique/master-bigdata-data/'>IPSSI-Paris</a> - décembre 2022 à novembre 2023</i>
+      <i><a target='_blank' rel="noreferrer"  href='https://ecole-ipssi.com/formations-informatique/master-bigdata-data/'>IPSSI-Paris</a> - décembre 2022 à novembre 2023</i>
       <br />
       <p className='text-parcours'>
         Formation permettant d'avoir une base solide en Développement Web,
@@ -83,7 +86,7 @@ const Parcours = () => {
       <br />
       <h3> Prépa Cybersécurité et Big Data</h3>
       <br />
-      <i><a href='https://ecole-ipssi.com/formations-informatique/prepa-bachelor-informatique-developpement/'>IPSSI-Paris </a> - novembre 2021 à juin 2022</i>
+      <i><a target='_blank' rel="noreferrer"  href='https://ecole-ipssi.com/formations-informatique/prepa-bachelor-informatique-developpement/'>IPSSI-Paris </a> - novembre 2021 à juin 2022</i>
       <br />
       <p className='text-parcours'>
         Formation intensive en administration et la sécurité réseau, la

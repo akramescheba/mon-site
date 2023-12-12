@@ -28,10 +28,22 @@ const FAQ = () => {
             >
               {/* ma presentation */}
               <div className="accordion-body">
-                <p className='text-faq'>
-                  je suis <b>Jordy AKRA MESCHEBA</b>, actuellement étudiant en Master 2 de Développement Web, Data Science & Intelligence Artificielle. Ma passion débordante pour la technologie et l'innovation s'est concrétisée au cours de mes deux années d'expérience dans le domaine. Mon dernier stage s'est déroulé au sein d'un atelier de tailleurs sur-mesure à Paris, où j'ai collaboré avec des experts en développement web, SEO et SEA. Ensemble, nous avons travaillé sur la migration d'un site en préproduction vers le site existant de l'entreprise, acquérant ainsi des compétences significatives dans ces domaines. Mon parcours inclut également une variété de projets, allant de réalisations personnelles à des missions en freelance.
+             
+              <p className='text-faq'>
+              je suis <b>Jordy AKRA MESCHEBA</b>, actuellement étudiant en Master 2 d'Experte en Ingénieurie logicielle à l'ISCOD.
+              </p>
 
-                </p>
+                  <p className='text-faq'>
+                  Ma passion débordante pour la technologie et l'innovation s'est concrétisée au cours de mes deux années d'expérience dans le domaine du Developpement web.
+                  </p>
+
+                  <p className='text-faq'>     
+                    Mon dernier stage s'est déroulé au sein d'un atelier de <b>tailleurs sur-mesure</b>  à Paris, où j'ai collaboré avec des experts en développement web, SEO et SEA, où j'ai pu travaillé sur la migration d'un site en préproduction vers le site existant de l'entreprise, acquérant ainsi des compétences significatives en SEO et SEA et d'approfondire mes compétencesen developpement web.
+                    </p>
+                  <p className='text-faq'>
+                  Mon parcours inclut également une variété de projets, allant de réalisations personnelles à des missions en freelance.
+                  </p>
+                  
               </div>
             </div>
           </div>
@@ -95,10 +107,8 @@ const FAQ = () => {
             >
               <div className="accordion-body">
                 <p className='text-faq'>
-                  Quel est ton rythme de formation
-                  demonstrate the <code>.accordion-flush</code> className. This is
-                  the second item's accordion body. Let's imagine this being
-                  filled with some actual content.
+                  Je recherche un environnement dynamique, au sein d'une entreprise stimulante qui propose des défis favorisant le développement de mes compétences. L'idéal serait de rejoindre une équipe collaborative prête à m'accompagner dans l'évolution de ma carrière. Je suis particulièrement attiré par un cadre de travail où règne une atmosphère propice à l'épanouissement professionnel, et où les opportunités d'évolution sont encouragées dans un esprit startup.
+
                 </p>
 
               </div>
@@ -143,7 +153,7 @@ const FAQ = () => {
                 <p className='text-faq'>
                   Vous trouverez ci-joint mon CV ainsi que la brochure de présentation de l'ISCOD.
 
-                  Dans l'attente d'un entretien, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+                  Etant dans la perspective de collaborer avec vous, j'espere avoir un  entretien afin de discuter de mon parcours.
 
                 </p>
               </div>

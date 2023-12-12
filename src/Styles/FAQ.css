@@ -27,6 +27,19 @@ div>p.text-faq{
 
   color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width:1048px) {
+    .FAQ{
+        width: 100%;
+        justify-content:center ;
+        margin:0auto;
+        letter-spacing: 0.01em;
+        padding: 250px 50px 250px 50px;
+        
+    }
+
+}
+
 @media screen and (max-width:768px){
     .FAQ{
         display: block;
